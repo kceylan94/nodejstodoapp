@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "MONGODB_CONNECTION_STRING='mongodb+srv://volaka:3L0yDHK7@todo-app-db-pajlo.mongodb.net/test?retryWrites=true' node app.js",
+    "dev": "MONGODB_CONNECTION_STRING='mongodb://localhost' node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "KJay",
